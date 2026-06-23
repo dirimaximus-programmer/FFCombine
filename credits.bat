@@ -8,4 +8,8 @@ echo ============MAIN BRANCH============
 echo Main maker: dirimaximus-programmer
 echo Code helper: Google Gemini [AI HELP]
 echo ===================================
-echo
+timeout /t 4
+cls
+echo Thanks for using FFCombine!
+pause
+exit /b
