@@ -8,15 +8,15 @@ cd /d "%~dp0"
 :main
 cls
 echo ======================================================
-echo          FFCOMBINE v1.0
+echo          FFCOMBINE v1.0.0
 echo ======================================================
-echo  1. MEDIA (FFmpeg: View, Analyze, Convert)
+echo  1. FFmpeg Compilation (FFmpeg: View, Analyze, Convert)
 echo  2. AI LLM (Llama.cpp: Chat, Server)
 echo  3. GCC CODE BUILDER (MinGW64 GCC / G++ Environment)
 echo  4. LLVM CODE BUILDER (Pure Clang / LLVM Cross-Compiler)
 echo  5. YT-DOWNLIADER (YT-DLP: Advanced Media Downloader)
 echo  6. URL DOWNLOADER (Wget: Fast URL File Downloader)
-echo  7. AUTO-GIT (Bash / CMD Environment Selector)
+echo  7. GIT PORTABLE RUNNER (Bash / CMD Environment Selector)
 echo  8. Exit
 echo. 9. Credits
 echo ======================================================
