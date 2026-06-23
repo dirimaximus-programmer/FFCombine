@@ -6,7 +6,7 @@ chcp 65001 > nul
 cd /d "%~dp0"
 
 :: Указываем пути к исполняемым файлам в текущей папке модуля
-set "YTDLP=.%~dp0yt-dlp-ffmpeg\yt-dlp.exe"
+set "YTDLP=%~dp0yt-dlp-ffmpeg\yt-dlp.exe"
 
 if not exist "%YTDLP%" (
     echo [ERROR] File %YTDLP% dont exist in folder yt-dlp-ffmpeg!
